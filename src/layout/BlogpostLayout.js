@@ -16,16 +16,20 @@ const BlogpostLayout=({data})=> {
         />
         <Header></Header>
         <main>
+       
         <div className="container">
-          <div className="col-xs-12">
-          <div className="row justify-content-md">
-               <h1 dangerouslySetInnerHTML={{ __html: post.title }}/>
-               <div dangerouslySetInnerHTML={{ __html: post.content }}/>
+          <div className="col-12">
+                 <div className="justify-content-md">
+          
+                     <h1 dangerouslySetInnerHTML={{ __html: post.title }}/>
+                      <div dangerouslySetInnerHTML={{ __html: post.content }}/>
+     
+                     </div>
+     
+       
             </div>
           </div>
           
-            
-        </div>
         </main>
       
          <Footer></Footer>
