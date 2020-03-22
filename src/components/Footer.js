@@ -5,7 +5,7 @@ const Footer = () => (
   
          <footer className={footerStyles.footer}>
          <div className="container">
-           <span className="text-dark">© copyright 2019 </span>
+           <span className="text-muted">© copyright 2019 </span>
         </div>
         </footer>
   
