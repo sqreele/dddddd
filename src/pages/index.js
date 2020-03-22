@@ -14,7 +14,7 @@ export default ({data}) => {
           <Post
           image={node.featured_media.source_url}
            title= {node.title}
-          excerpt= {node.excerpt}
+           excerpt= { node.excerpt}
           readMore= {node.slug}>
 
           </Post>
