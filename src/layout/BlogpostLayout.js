@@ -15,6 +15,7 @@ const BlogpostLayout=({data})=> {
             keyword={post.categories.map(res=>res.name).join(', ') }
         />
         <Header></Header>
+        <main>
         <div className="container">
             <div className="row justify-content-md">
                <h1 dangerouslySetInnerHTML={{ __html: post.title }}/>
@@ -22,6 +23,8 @@ const BlogpostLayout=({data})=> {
             </div>
             
         </div>
+        </main>
+      
          <Footer></Footer>
          </div>
     )

@@ -6,7 +6,9 @@ const PrimaryLayout=(props)=>(
     <div>
     <SEO/>
     <Header></Header>
-    <div className="container">
+    <main>
+
+       <div className="container">
         <div className="row justify-content-md">
            <div className={props.column}>
              {props.children}
@@ -16,6 +18,8 @@ const PrimaryLayout=(props)=>(
         </div>
         
     </div>
+    </main>
+  
      <Footer></Footer>
      </div>
 );
