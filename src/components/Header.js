@@ -12,7 +12,7 @@ export default(props)=>(
       
       </Nav.Link>
  
-      <Nav.Link as={Link} to="/About" > <b className="text-dark">home</b>About us</Nav.Link>
+      <Nav.Link as={Link} to="/About" > <b className="text-dark">About us</b></Nav.Link>
      
       <Nav.Link as={Link} to="/Contact" ><b className="text-dark">Contact</b></Nav.Link>
      
