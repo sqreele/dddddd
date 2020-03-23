@@ -9,12 +9,12 @@ const PrimaryLayout=(props)=>(
     <main>
 
        <div className="container">
-        <div className="row justify-content-md">
+       <div className="col-12">
            <div className={props.column}>
              {props.children}
         
-           </div>
-
+   
+            </div>
         </div>
         
     </div>

@@ -8,7 +8,7 @@ export default ({data}) => {
      console.log(data);
      return(
          
-         <PrimaryLayout column ="col-12" >
+         <PrimaryLayout>
        
          {data.allWordpressPost.nodes.map(node =>(
           <Post
