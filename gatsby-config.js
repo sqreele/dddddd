@@ -44,5 +44,13 @@ module.exports = {
     },
   },
   `gatsby-plugin-offline`,
+  {
+    resolve:`gatsby-plugin-google-analytics`,
+    options: {
+      trackingId: "google-site-verification=SFxG99JE5h0BDawClNzTqCCjr14cuflcPovltRmM_bE",
+      head: false,
+    },
+
+  },
   ]
 }
