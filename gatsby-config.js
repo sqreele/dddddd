@@ -47,8 +47,9 @@ module.exports = {
   {
     resolve:`gatsby-plugin-google-analytics`,
     options: {
-      trackingId: "google-site-verification=SFxG99JE5h0BDawClNzTqCCjr14cuflcPovltRmM_bE",
+      trackingId: "UA-147651973-3",
       head: false,
+      anonymize: true,
     },
 
   },
