@@ -22,7 +22,7 @@
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-source-wordpress": "^3.2.3",
-    "gatsby-transformer-remark": "^2.7.1",
+    "gatsby-transformer-remark": "^5.25.1",
     "ink": "^2.7.1",
     "innertext": "^1.0.3",
     "minimist": "^1.2.5",
